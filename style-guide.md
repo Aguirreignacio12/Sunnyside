@@ -13,9 +13,9 @@ Los diseños se crearon con los siguientes anchos:
 
 - Rojo suave: hsl(7, 99%, 70%)
 - Amarillo: hsl(51, 100%, 49%)
-- Cian desaturado oscuro (texto de diseño gráfico): hsl (167, 40 %, 24 %)
+- Cian desaturado oscuro (texto de diseño gráfico): hsl (167, 40%, 24%)
 - Azul oscuro (texto de fotografía): hsl(198, 62%, 26%)
-- Cian moderado oscuro (pie de página): hsl (168, 34 %, 41 %)
+- Cian moderado oscuro (pie de página): hsl (168, 34%, 41%)
 
 ### Neutral
 
