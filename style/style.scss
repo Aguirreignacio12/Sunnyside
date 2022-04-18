@@ -269,17 +269,29 @@ $breakpoints: (
     grid-template-rows: repeat(2, 650px);
     max-width: 100%;
     width: 100%;
+    @include media-up(lg) {
+        grid-template-columns: 1fr 1fr;
+    }
     &__item {
         display: flex;
         justify-content: flex-end;
         text-align: center;
         flex-direction: column;
         position: relative;
+        @include media-up(lg) {
+            flex-direction: column;
+        }
         &--design {
             color: $color-txt-design;
+            @include media-up(lg) {
+                grid-column: 1;
+            }
         }
         &--photograpy {
             color: $color-txt-photograpy;
+            @include media-up(lg) {
+                grid-column: 2;
+            }
         }
     }
     &__title {
