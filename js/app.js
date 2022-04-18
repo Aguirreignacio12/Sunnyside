@@ -1,4 +1,4 @@
-import hamburguerMenu from "hamburguerMenu.js";
+import hamburguerMenu from "./hamburguerMenu.js";
 
 const D = document;
 
