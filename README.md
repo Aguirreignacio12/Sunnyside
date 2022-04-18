@@ -1,14 +1,14 @@
-# Frontend Mentor - Sunnyside agency landing page
+# Frontend Mentor - página de destino de la agencia Sunnyside
 
-![Design preview for the Sunnyside agency landing page coding challenge](./design/desktop-preview.jpg)
+![Vista previa del diseño para el desafío de codificación de la página de aterrizaje de la agencia Sunnyside](./design/desktop-preview.jpg)
 
-## Welcome! 👋
+## ¡Bienvenidos! 👋
 
-Thanks for checking out this front-end coding challenge.
+Gracias por revisar este desafío de codificación front-end.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
+Los desafíos de [Mentor de frontend](https://www.frontendmentor.io) lo ayudan a mejorar sus habilidades de codificación mediante la creación de proyectos realistas.
 
-**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
+**Para hacer este desafío, necesitas conocimientos básicos de HTML, CSS y JavaScript.**
 
 ## The challenge
 
