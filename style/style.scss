@@ -10,6 +10,7 @@
 html {
     font-size: 18px;
     scroll-behavior: smooth;
+    background: $color-Neutral-Blanco;
 }
 
 $breakpoints: (
@@ -177,6 +178,9 @@ $breakpoints: (
         justify-content: center;
         text-align: center;
         flex-direction: column;
+        @include media-up(lg) {
+            text-align: left;
+        }
         &:first-child {
             grid-row: 1;
             @include media-up(lg) {
@@ -271,6 +275,7 @@ $breakpoints: (
     width: 100%;
     @include media-up(lg) {
         grid-template-columns: 1fr 1fr;
+        grid-template-rows: min(650px);
     }
     &__item {
         display: flex;
@@ -316,6 +321,9 @@ $breakpoints: (
 }
 .testimonials {
     width: 100%;
+    @include media-up(lg) {
+        padding-bottom: 5em;
+    }
     &__title {
         text-align: center;
         text-transform: uppercase;
@@ -323,6 +331,9 @@ $breakpoints: (
         letter-spacing: 0.1em;
         margin: 3em 0;
         color: $color-Neutral-azulGrisáceo;
+        @include media-up(lg) {
+            margin: 7em 0;
+        }
     }
     &__card {
         display: grid;
@@ -330,12 +341,17 @@ $breakpoints: (
         gap: 2em;
         max-width: 100%;
         width: 100%;
+        @include media-up(lg) {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+        }
         &-item {
             display: flex;
             justify-content: space-evenly;
             text-align: center;
             flex-direction: column;
             padding: 0 1.5em;
+            gap: 3em;
         }
         &-img {
             border-radius: 50%;

@@ -10,6 +10,7 @@
 html {
   font-size: 18px;
   scroll-behavior: smooth;
+  background: white;
 }
 
 /* ------------ HEADER ---------- */
@@ -268,6 +269,12 @@ html {
           flex-direction: column;
 }
 
+@media screen and (min-width: 1024px) {
+  .about__item {
+    text-align: left;
+  }
+}
+
 .about__item:first-child {
   -ms-grid-row: 1;
   grid-row: 1;
@@ -397,6 +404,8 @@ html {
   .services {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 650px;
+        grid-template-rows: 650px;
   }
 }
 
@@ -473,6 +482,12 @@ html {
   width: 100%;
 }
 
+@media screen and (min-width: 1024px) {
+  .testimonials {
+    padding-bottom: 5em;
+  }
+}
+
 .testimonials__title {
   text-align: center;
   text-transform: uppercase;
@@ -480,6 +495,12 @@ html {
   letter-spacing: 0.1em;
   margin: 3em 0;
   color: #a7abae;
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonials__title {
+    margin: 7em 0;
+  }
 }
 
 .testimonials__card {
@@ -490,6 +511,15 @@ html {
   gap: 2em;
   max-width: 100%;
   width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .testimonials__card {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+  }
 }
 
 .testimonials__card-item {
@@ -505,6 +535,7 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0 1.5em;
+  gap: 3em;
 }
 
 .testimonials__card-img {
