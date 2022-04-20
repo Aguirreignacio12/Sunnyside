@@ -208,6 +208,12 @@ $breakpoints: (
         }
         &--padding {
             padding: 5em 1.5em;
+            @include media-up(lg) {
+                padding: 5em 2em;
+            }
+            @include media-up(xl) {
+                padding: 5em 3em;
+            }
         }
         &-img {
             width: 100%;
@@ -309,6 +315,10 @@ $breakpoints: (
         padding: 1.5em 1.5rem 3em 1.5em;
         line-height: 1.7em;
         font-family: $font-familyBARLOW;
+        @include media-up(lg) {
+        max-width: 450px;
+        margin: 0 auto;
+        }
     }
     &__image {
         width: 100%;
@@ -382,6 +392,10 @@ $breakpoints: (
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(2, 50%);
+    @include media-up(lg) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+    }
     &__item {
         display: flex;
         justify-content: center;

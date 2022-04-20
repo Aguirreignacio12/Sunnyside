@@ -326,6 +326,18 @@ html {
   padding: 5em 1.5em;
 }
 
+@media screen and (min-width: 1024px) {
+  .about__item--padding {
+    padding: 5em 2em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about__item--padding {
+    padding: 5em 3em;
+  }
+}
+
 .about__item-img {
   width: 100%;
   height: 100%;
@@ -468,6 +480,13 @@ html {
   font-family: "Barlow", sans-serif;
 }
 
+@media screen and (min-width: 1024px) {
+  .services__text {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+}
+
 .services__image {
   width: 100%;
   height: 100%;
@@ -573,6 +592,15 @@ html {
       grid-template-columns: repeat(2, 50%);
   -ms-grid-rows: (50%)[2];
       grid-template-rows: repeat(2, 50%);
+}
+
+@media screen and (min-width: 1024px) {
+  .projects-container {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+  }
 }
 
 .projects-container__item {
